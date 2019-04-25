@@ -1,0 +1,94 @@
+Script started on Thursday 25 April 2019 09:28:06 PM IST
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sudo apt install perl
+[sudo] password for cec-lab1: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 1%
+
+Reading state information... Done
+
+perl is already the newest version (5.22.1-9ubuntu0.6).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.10.0-28 linux-headers-4.10.0-28-generic
+  linux-headers-4.15.0-39 linux-headers-4.15.0-39-generic
+  linux-headers-4.15.0-45 linux-headers-4.15.0-45-generic
+  linux-image-4.10.0-28-generic linux-image-4.15.0-39-generic
+  linux-image-4.15.0-45-generic linux-image-extra-4.10.0-28-generic
+  linux-modules-4.15.0-39-generic linux-modules-4.15.0-45-generic
+  linux-modules-extra-4.15.0-39-generic linux-modules-extra-4.15.0-45-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 80 not upgraded.
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ pr[Kerl -v
+
+This is perl 5, version 22, subversion 1 (v5.22.1) built for x86_64-linux-gnu-thread-multi
+(with 73 registered patches, see perl -V for more detail)
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ perl hello.perl
+hello]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ perl.[K sum.perl
+enter 2 numbers2
+2
+sum=4
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 09:49:21 PM IST
+
+
+
+
+
+
+
+hello.perl
+
+
+use strict;
+use warnings;
+print "hello";
+
+
+sum.perl
+
+use strict;
+use warnings;
+print"enter 2 numbers";
+$a=<>;
+$b=<>;
+my $sum= $a + $b;
+print"sum=$sum\n";
+
+
+
+
+
+
+
+
